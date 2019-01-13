@@ -5,8 +5,8 @@ class TowersOfHanoi extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      a: [4, 3, 1],
-      b: [2],
+      a: [4, 3, 2, 1],
+      b: [],
       c: [],
       gameWon: false
     };
